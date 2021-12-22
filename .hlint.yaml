@@ -1,0 +1,13 @@
+---
+- modules:
+  - name:
+      - Data.ByteString
+      - Data.ByteString.Lazy
+    as: ByteString
+- group:
+    name: generalise
+    enabled: true
+- ignore:
+    name: Reduce duplication
+    within:
+      - Test
